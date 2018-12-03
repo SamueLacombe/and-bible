@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!-- Application text
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!-- Application text
 
 TODO: error and download_document_confirm_prefix need to be parameterized rather than used for concatenation 
  
@@ -39,7 +38,7 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="help">Help</string>
     <string name="verse">Verse</string>
     <string name="administration">Administration</string>
-    
+
     <!-- Passage navigation -->
     <string name="choosePassageBookName">Choose Book</string>
     <string name="choosePassageChapterName">Choose Chapter</string>
@@ -138,7 +137,7 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="windowMinimise">Minimise</string>
     <string name="windowSynchronise">Synchronise</string>
     <string name="windowMoveFirst">Move first</string>
-    
+
     <!-- Notes screen -->
     <string name="no_chapter_notes">No notes exist in this chapter</string>
     <string name="no_verse_notes">No notes exist in this verse</string>
@@ -170,7 +169,7 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="download_complete_no_bibles">No bible was installed.  Please press Back and try again.</string>
     <string name="too_many_jobs">Too many tasks executing.  Please wait for some to finish and try again.</string>
     <string name="document_not_installed">Please download \'%s\'</string>
-    
+
     <!--  Install zip file -->
     <string name="install_zip">Load Document From Zip</string>
     <string name="install_zip_successfull">Module was installed successfully</string>
@@ -194,7 +193,7 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="rdg_plan_y1ot1nt2_mcheyne">Through the bible in a year (M\'Cheyne)</string>
     <string name="rdg_plan_y2ot1ntps2">2 year plan - OT once, NT and Psalms twice</string>
     <!-- string name="rdg_plan_m1gospels">Through the Gospels in a month</string -->
-    
+
     <!-- Document context menu -->
     <string name="delete">Delete</string>
     <string name="delete_index">Delete search index</string>
@@ -236,7 +235,7 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="sort_by_date">Date order</string>
     <string name="sort_by_bible_book">Biblical order</string>
     <string name="sort_by_alphabetical">Alphabetical order</string>
-    
+
     <!-- Dictionary -->
     <string name="dictionary">Dictionary</string>
     <string name="search_dictionary_hint">Search dictionary</string>
@@ -324,16 +323,16 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string-array name="divinename_original">
         <item>Lord</item>
         <item>God</item>
-        <item/>
-        <item/>
-        <item/>
+        <item />
+        <item />
+        <item />
     </string-array>
     <string-array name="divinename_replace">
         <item>Yahweh</item>
         <item>Yahweh</item>
-        <item/>
-        <item/>
-        <item/>
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string name="speak_book_changed">Book changed.</string>
@@ -350,12 +349,12 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="mynote_add">Add My Note</string>
     <string name="mynote_view_edit">My Note</string>
     <string name="mynote_saved">My Note saved</string>
-    
+
     <!-- Backup and restore -->
     <string name="backup">Backup</string>
-    <string name="backup_success">My Notes and Bookmarks saved in %s on the SD card</string>    
+    <string name="backup_success">My Notes and Bookmarks saved in %s on the SD card</string>
     <string name="restore">Restore</string>
-    <string name="restore_confirmation">Overwrite My Notes and Bookmarks?</string>    
+    <string name="restore_confirmation">Overwrite My Notes and Bookmarks?</string>
     <string name="restore_success">My Notes and Bookmarks restored from %s on the SD card</string>
     <string name="error_no_backup_file">A backup file could not be found</string>
 
@@ -363,14 +362,14 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="about_copyright">Copyright: %s</string>
     <string name="about_version">Version: %s</string>
     <string name="about_versification">Versification: %s</string>
-    
+
     <!-- Document types -->
     <string name="doc_type_bible">Bible</string>
     <string name="doc_type_commentary">Commentary</string>
     <string name="doc_type_dictionary">Dictionary</string>
     <string name="doc_type_book">Book</string>
     <string name="doc_type_map">Map</string>
-    
+
     <!-- Languages -->
     <string name="lang_default">Default</string>
 
@@ -403,4 +402,11 @@ TODO: error and download_document_confirm_prefix need to be parameterized rather
     <string name="download_documents">Downloading documents</string>
     <string name="notification_channel_tts_status">Text to speech</string>
     <string name="notification_channel_progress_status">Progress status notification for document downloads etc.</string>
+
+    <!-- VGR section -->
+    <!-- Download Manager Activity -->
+    <string name="download_label">The Bible To Mobile Devices</string>
+    <string name="download_btn">download</string>
+    <string name="download_item_label">Download:</string>
+    <string name="required_item_label">Required:</string>
 </resources>
