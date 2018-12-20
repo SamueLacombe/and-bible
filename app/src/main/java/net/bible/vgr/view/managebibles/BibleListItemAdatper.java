@@ -1,8 +1,6 @@
-package net.bible.vgr.view.activity.bibledownloadlist;
+package net.bible.vgr.view.managebibles;
 
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import net.bible.android.activity.R;
@@ -14,25 +12,25 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class BibleDownloadItemAdapter extends RecyclerView.Adapter<BibleDownloadItemHolder> {
+public class BibleListItemAdatper extends RecyclerView.Adapter<BibleListItemHolder> {
 
     private final List<BibleDownloadModel> bibles;
     private List<BibleDownloadModel> selectedBibles;
 
-    public BibleDownloadItemAdapter(List<BibleDownloadModel> bibles) {
+    public BibleListItemAdatper(List<BibleDownloadModel> bibles) {
         this.selectedBibles = new ArrayList<>();
         this.bibles = bibles;
     }
 
     @NonNull
     @Override
-    public BibleDownloadItemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new BibleDownloadItemHolder(LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.vgr_download_bible_item, parent, false));
+    public BibleListItemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new BibleListItemHolder(LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.vgr_bible_item, parent, false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull BibleDownloadItemHolder holder, int position) {
+    public void onBindViewHolder(@NonNull BibleListItemHolder holder, int position) {
         BibleDownloadModel bible = bibles.get(position);
         holder.title.setText(bible.getTitle());
         holder.downloadSize.setText(bible.getDownloadText());

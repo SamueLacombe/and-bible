@@ -19,7 +19,7 @@
         android:id="@+id/vgr_download_list_view"
         android:layout_width="match_parent"
         android:layout_height="328dp"
-        tools:listitem="@layout/vgr_download_bible_item" />
+        tools:listitem="@layout/vgr_bible_item" />
 
     <Button
         android:id="@+id/vgr_download_btn"

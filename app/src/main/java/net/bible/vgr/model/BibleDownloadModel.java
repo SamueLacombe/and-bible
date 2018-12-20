@@ -38,7 +38,7 @@ public class BibleDownloadModel {
     public static List<BibleDownloadModel> getBibleList() {
         List<BibleDownloadModel> books = new ArrayList<>();
         books.add(new BibleDownloadModel("ENG", "English", "linkENGBible", new Double(100.0d), new Double(123.3d)));
-        books.add(new BibleDownloadModel("FRA", "Le français", "linkFRABible", new Double(110.0d), new Double(133.3d)));
+        books.add(new BibleDownloadModel("FRN", "Français", "linkFRNBible", new Double(110.0d), new Double(133.3d)));
         books.add(new BibleDownloadModel("POR", "Português", "linkPORBible", new Double(120.0d), new Double(143.3d)));
         return books;
     }

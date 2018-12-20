@@ -1,4 +1,4 @@
-package net.bible.vgr.view.activity.bibledownloadlist;
+package net.bible.vgr.view.managebibles;
 
 import android.view.View;
 import android.widget.TextView;
@@ -7,7 +7,7 @@ import net.bible.android.activity.R;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-public class BibleDownloadItemHolder extends RecyclerView.ViewHolder {
+public class BibleListItemHolder extends RecyclerView.ViewHolder {
 
     final TextView title;
     final TextView downloadSize;
@@ -15,7 +15,7 @@ public class BibleDownloadItemHolder extends RecyclerView.ViewHolder {
     final View itemSelectionIndicator;
     public View wrapper;
 
-    public BibleDownloadItemHolder(View itemView) {
+    public BibleListItemHolder(View itemView) {
         super(itemView);
         wrapper = itemView;
         title = itemView.findViewById(R.id.bible_title);
