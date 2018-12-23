@@ -4,7 +4,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import net.bible.android.activity.R;
-import net.bible.vgr.model.BibleDownloadModel;
+import net.bible.vgr.activity.model.BibleDownloadModel;
 
 import java.util.ArrayList;
 import java.util.List;

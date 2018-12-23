@@ -22,5 +22,5 @@ package net.bible.android.activity;
  * 
  * @author Martin Denham [mjdenham at gmail dot com]
  */
-public class StartupActivity extends net.bible.vgr.view.StartupActivity {
+public class StartupActivity extends net.bible.vgr.activity.StartupActivity {
 }

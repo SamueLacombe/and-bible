@@ -1,4 +1,4 @@
-package net.bible.vgr.model;
+package net.bible.vgr.activity.model;
 
 import java.util.ArrayList;
 import java.util.List;

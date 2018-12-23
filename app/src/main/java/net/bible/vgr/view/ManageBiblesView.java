@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import net.bible.android.activity.R;
-import net.bible.vgr.model.BibleDownloadModel;
+import net.bible.vgr.activity.model.BibleDownloadModel;
 import net.bible.vgr.view.managebibles.BibleListItemAdatper;
 
 import androidx.recyclerview.widget.DividerItemDecoration;
