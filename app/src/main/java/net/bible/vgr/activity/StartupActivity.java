@@ -21,7 +21,8 @@ public class StartupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         //Initialised default Parameters
-        parameters.initialiseParameters(this);
+        parameters = new Parameters();
+        parameters.initialiseParameters(getApplicationContext());
 
         setContentView(R.layout.vgr_manage_bibles_view);
 

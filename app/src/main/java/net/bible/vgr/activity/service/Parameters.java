@@ -1,14 +1,15 @@
 package net.bible.vgr.activity.service;
 
+import android.app.Activity;
 import android.content.Context;
 
 import net.bible.vgr.activity.database.ParametersDBHandler;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-public class Parameters {
+public class Parameters extends Activity {
     public static final String[] parametersList = new String[] {"InitialisedInd", "MenuLanguage", "MenuRedLetterDayInd","FullScreenInd",};
-    Languages languages;
+    Languages languages = new Languages();
 
     public Parameters() {
     }
